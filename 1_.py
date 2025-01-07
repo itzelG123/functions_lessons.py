@@ -23,3 +23,28 @@ determineEligiblity_tograduate('bob',119,1.9,799)
 listOfMovies('the matrix',10,'action')
 listOfMovies('the hangpver',5,'comedy')
 listOfMovies('the ring',3,'horror')
+
+#return staement is used to return a value from a function 
+#returen = staement used to end a function 
+#and sned a result back to the caller 
+
+def add(x,y):
+    z=x+y
+    return z
+
+def subtract(x,y):
+    z=x-y
+    return z
+
+def multiply(x,y):
+    z=x*y
+    return z
+
+def divide(x,y):
+    z=x/y
+    return z
+
+print(add(1,2))
+print(subtract(1,2))
+print(multiply(1,2))
+print(divide(1,2))
