@@ -1,34 +1,25 @@
-# Methods, Help & Documentation Practice #1
-# Remove the characters to the left of our main text:
+# #FUNCTIONS ARE WAYS TO WRAP YOUR CODE
+# #INTO REUSABLE UNITS
+from determineEligiblity import determineEligiblity_tograduate,listOfMovies
+# #define function wuth def
+# #only define the function once
+# #when i pass in a parameter,
+# #i am passing in a palceholder for future information 
+# def say_hello(name,age,address):
+#     print(f"hello{name}")
+#     print(f'how are you{name} ')
+#     print(f"{name} are {age}years old")
+#     print(f"{name}loive in {address}")
+# #call function also known as invoking a function
+# #pass info called an agrument
+# say_hello('alice',22,'main ST')
+# say_hello('paul',34,'side ST')
+# say_hello('bob',56,'upside down')
+# say_hello('Altair',45,'101 main st')
 
-# ,
+determineEligiblity_tograduate('alice',120,2.0,800)
+determineEligiblity_tograduate('bob',119,1.9,799)
 
-# :
-
-# %
-
-# _
-
-# #
-
-# Use the lstrip() method. Print the result to the screen:
-
-# ",:_#,,,,,,:::____##Total_ _Pyt%on,,,,,,::#"
-
-# Search the documentation for the requested method to learn how it works. You can use intermediate variables if you need them.
-
-
-# Methods, Help & Documentation Practice #2
-# Add the element "orange" as the fourth element of the following list fruits, using the insert() method:
-
-# fruits = ["mango", "banana", "cherry", "plum", "grapefruit"]
-
-# Search the documentation for the requested method to know how it works.
-
-# Methods, Help & Documentation Practice #3
-# Check if the sets below are isolated (that is, they have no elements in common), using the isdisjoint() method. Store this result in the isolated_sets variable:
-
-# phone_brands = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
-# tv_brands = {"Sony", "Philips", "Samsung", "LG"}
-# Search the documentation for the requested method to know how it works.
-
+listOfMovies('the matrix',10,'action')
+listOfMovies('the hangpver',5,'comedy')
+listOfMovies('the ring',3,'horror')
