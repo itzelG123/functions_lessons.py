@@ -1,3 +1,39 @@
+#*args= allows you to pass mulitple non key arguements parameter
+#**kwargs= allows you to pass multiple keyword arguemnts dicotnary
+        #unpacking operator=*
+    # 1.postionaL  2.DEFAULT 3.keyword 4. ARBITRARY-arguements
+
+# def add (*args):
+#     print(type(args)) 
+
+# add(1,2,3)
+
+# def add (*args): #you can use any name as long as you have star 
+#     total=0
+#     for arg in args:
+#         total+= arg
+#     return total
+
+# print(add(1,2,3))
+
+
+# def display_name(*args):
+#     for arg in args:
+#         print(arg,end="")
+
+# display_name("Dr.","spongebob","harold","squarepants","iii")
+
+
+def print_address(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}:{value}")
+    #pass#run program without crashing 
+
+print_address(street="123 St",
+              city="chiacgo",
+              state="illnoiis",
+              zip="54321")
+
 # Indefinite Arguments (*args) Practice #1
 # Create a function called sum_squares that takes any number of numeric arguments, and returns the sum of their values squared.
 
@@ -13,3 +49,4 @@
 # The function should return the following message:
 
 # "{name}, the sum of your numbers is {sum_numbers}"
+
